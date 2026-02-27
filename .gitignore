@@ -1,0 +1,42 @@
+#################################
+# Backend (Spring Boot - Gradle)
+#################################
+restaurant-reservation-api/build/
+restaurant-reservation-api/.gradle/
+restaurant-reservation-api/out/
+
+#################################
+# Backend (If Maven instead)
+#################################
+restaurant-reservation-api/target/
+
+#################################
+# Frontend (React)
+#################################
+restaurant-reservation-frontend/node_modules/
+restaurant-reservation-frontend/dist/
+restaurant-reservation-frontend/build/
+
+#################################
+# IDE
+#################################
+.idea/
+*.iml
+.vscode/
+
+#################################
+# OS
+#################################
+.DS_Store
+Thumbs.db
+
+#################################
+# Logs
+#################################
+*.log
+
+#################################
+# Environment files
+#################################
+.env
+.env.local
