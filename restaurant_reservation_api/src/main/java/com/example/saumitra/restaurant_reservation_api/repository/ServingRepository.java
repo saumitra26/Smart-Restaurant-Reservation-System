@@ -1,4 +1,7 @@
 package com.example.saumitra.restaurant_reservation_api.repository;
 
-public interface ServingRepository {
+import com.example.saumitra.restaurant_reservation_api.entity.ServingTable;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ServingRepository   extends JpaRepository<ServingTable,Long> {
 }
